@@ -11,9 +11,18 @@ Cloud formation templates also deploys necessary SSM roles and endpoints so that
 All clodes saved in below location. 
 https://github.com/thesatwik/PublicProjects/tree/main/2-TransitGateway-ConnectVPCs/01%20Code 
 
-1. **VPC-AwithPrivateEC2A.yaml**    
-    A. Deploys VPC with CIDR range 10.20.0.0/16  
+1. **VPC-AwithPrivateEC2A.yaml**    -- Deployed in Account-A  
+
+    A. Deploys VPC with CIDR range **10.20.0.0/16**
     B. creates 12 subnets - 3 Web Public Subnet, 3 DB private subnet, 3 APP  private subnet, and 3 reserved subnet for future requirements   
     C. Creates EC2 instance in Private subnet with necessary SSM role.   
+
 [This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-AwithPrivateEC2A.yaml&stackName=VPC-AwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  
-  
+
+2. **VPC-BwithPrivateEC2B.yaml**    Deployed in Account-B  
+
+    A. Deploys VPC with CIDR range **10.21.0.0/16**  
+    B. creates 12 subnets - 3 Web Public Subnet, 3 DB private subnet, 3 APP  private subnet, and 3 reserved subnet for future requirements   
+    C. Creates EC2 instance in Private subnet with necessary SSM role.   
+
+[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-BwithPrivateEC2B.yaml&stackName=VPC-BwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  
