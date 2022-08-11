@@ -8,8 +8,8 @@ Cloud formation templates also deploys necessary SSM roles and endpoints so that
 
 
 ### Codes for this demo
-All clodes saved in below location. 
-https://github.com/thesatwik/PublicProjects/tree/main/2-TransitGateway-ConnectVPCs/01%20Code 
+All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/tree/main/2-TransitGateway-ConnectVPCs/01%20Code). 
+
 
 1. **VPC-AwithPrivateEC2A.yaml**    -- Deployed in Account-A  
 
