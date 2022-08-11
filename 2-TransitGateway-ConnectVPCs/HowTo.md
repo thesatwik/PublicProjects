@@ -47,14 +47,16 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
 
 ## Create Transit Gateway in Account A    
 
-
+Coming up!!!
 
 
 ## Share Transit gateway to other accounts hosting VPC-B & VPC-C within AWS Organisation   
 
 
+Coming up!!!!
 
+## Create Transit Gateway Attachments   
 
-## Create Transit Gateway Attachments 
+Comming up!!!
 
 
