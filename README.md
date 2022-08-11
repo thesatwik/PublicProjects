@@ -3,7 +3,7 @@
 This Repo is some of My POC projects done in my personal LAB account. These projects were completed as a first step (to clear/reinforce basic concepts) before delivering real world implementations" 
 
 
-Thanks,
+Thanks,  
 Satwik Bhattacharya | www.thesatwik.com  
 
 
