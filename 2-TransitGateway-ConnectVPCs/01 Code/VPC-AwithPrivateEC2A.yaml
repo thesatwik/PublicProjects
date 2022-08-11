@@ -1,4 +1,4 @@
-Description:  Satwik Automating as much as possible
+Description:  Creates VPC/Subnets and an private EC2 instance accessbile through SSM
 Parameters:
   LatestAmiId:
     Description: AMI for EC2 (default is latest AmaLinux2)
