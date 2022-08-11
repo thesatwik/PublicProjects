@@ -4,6 +4,8 @@ Below is the architecture diagram on how VPCs are connected to Transit gateway t
 
 ![Architectural setup with 3 VPCs in 3 accounts](https://raw.githubusercontent.com/thesatwik/PublicProjects/2b83b95bb61633aa8d62f18f153d174dd7e96c7c/2-TransitGateway-ConnectVPCs/02%20Diagrams/Trasit%20Gatway_VPC%20Setup.png)
 
+VPC-A, VPC-B and VPC-C are part of an AWS Organisation. 
+
 ## Preparing Basic Environment. 
 
 I have used below cloudformation templates to setup necessary enviroment. 
@@ -21,7 +23,7 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
     B. creates 12 subnets - 3 Web Public Subnet, 3 DB private subnet, 3 APP  private subnet, and 3 reserved subnet for future requirements   
     C. Creates EC2 instance in Private subnet with necessary SSM role.   
 
-[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-AwithPrivateEC2A.yaml&stackName=VPC-AwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  
+[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-AwithPrivateEC2A.yaml&stackName=VPC-AwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  Login or switch to related AWS account before launching oneclick deployement. 
 
 2. **VPC-BwithPrivateEC2B.yaml**    Deployed in Account-B  
 
@@ -29,7 +31,7 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
     B. creates 12 subnets - 3 Web Public Subnet, 3 DB private subnet, 3 APP  private subnet, and 3 reserved subnet for future requirements   
     C. Creates EC2 instance in Private subnet with necessary SSM role.   
 
-[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-BwithPrivateEC2B.yaml&stackName=VPC-BwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket. 
+[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-BwithPrivateEC2B.yaml&stackName=VPC-BwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  Login or switch to related AWS account before launching oneclick deployement. 
 
 
 2. **VPC-CwithPrivateEC2B.yaml**    Deployed in Account-C  
@@ -38,10 +40,10 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
     B. creates 12 subnets - 3 Web Public Subnet, 3 DB private subnet, 3 APP  private subnet, and 3 reserved subnet for future requirements   
     C. Creates EC2 instance in Private subnet with necessary SSM role.   
 
-[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-CwithPrivateEC2C.yaml&stackName=VPC-CwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket. 
+[This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-CwithPrivateEC2C.yaml&stackName=VPC-CwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  Login or switch to related AWS account before launching oneclick deployement. 
 
 
 ###################################This is the END of VPC & EC2 Setup################################
 
-
+## Create Transit Gateway in Account A
 
