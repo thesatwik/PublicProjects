@@ -8,4 +8,5 @@ Satwik Bhattacharya | www.thesatwik.com
 
 
 
-** Always passioned about adding values, handling critical deliverables ** 
+
+**Always passioned about adding values, handling critical deliverables** 
