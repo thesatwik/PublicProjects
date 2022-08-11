@@ -2,7 +2,7 @@
 
 Below is the architecture diagram on how VPCs are connected to Transit gateway to have inter VPC communication. 
 
-![Architectural setup with 3 VPCs in 3 accounts](https://raw.githubusercontent.com/thesatwik/PublicProjects/2b83b95bb61633aa8d62f18f153d174dd7e96c7c/2-TransitGateway-ConnectVPCs/02%20Diagrams/Trasit%20Gatway_VPC%20Setup.png)
+![Architectural setup with 3 VPCs in 3 accounts](https://raw.githubusercontent.com/thesatwik/PublicProjects/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/Trasit%20Gatway_VPC%20Setup.png)
 
 VPC-A, VPC-B and VPC-C are part of an AWS Organisation. 
 
