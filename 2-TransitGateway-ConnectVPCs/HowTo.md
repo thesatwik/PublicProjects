@@ -45,5 +45,16 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
 
 ###################################This is the END of VPC & EC2 Setup################################
 
-## Create Transit Gateway in Account A
+## Create Transit Gateway in Account A    
+
+
+
+
+## Share Transit gateway to other accounts hosting VPC-B & VPC-C within AWS Organisation   
+
+
+
+
+## Create Transit Gateway Attachments 
+
 
