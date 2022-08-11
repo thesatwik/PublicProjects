@@ -4,9 +4,8 @@ This Repo is some of My POC projects done in my personal LAB account. These proj
 
 
 Thanks,  
-Satwik Bhattacharya | www.thesatwik.com  
+Satwik Bhattacharya | **www.thesatwik.com**
 
 
 
 
-**Always passioned about adding values, handling critical deliverables** 
