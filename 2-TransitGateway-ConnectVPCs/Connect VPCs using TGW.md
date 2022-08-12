@@ -74,5 +74,5 @@ Following sceenshot from AWS console shows how TGW was created and then shared w
 Below AWS console screen details on how to create TGW attachments and if the TGW is created without "Auto accept Shared Attachment", then owner of TGW (Account-A in this case) must accpet each request. 
 Three VPC attachments from created from VPC A/B/C of account A/B/C respecively. 
 
-![TGW attachment]()
+![TGW attachment](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/TransitGatewayAttachments.png)
 
