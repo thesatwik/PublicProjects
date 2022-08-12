@@ -89,3 +89,8 @@ Notice that during TGW creation "Default route table association" was checked. T
 
 In this example, EC2 instances were launced in **PrivateSubnet** Called AppA. For all three subnets under three different account, Route table needs to be updated so that relavant traffic be routed towards Transit Gateway. 
 Once trafiic reaches transit gateway, based on transit gateway default route table, it will forward connections to respective VPCs. 
+
+
+
+
+![SubnetRTUpdate](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/SubnetRTUpdate.png)
