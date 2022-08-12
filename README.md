@@ -7,5 +7,5 @@ Thanks,
 Satwik Bhattacharya | **www.thesatwik.com**
 
 
-
+![Githubbanner](https://github.com/thesatwik/PublicProjects/blob/main/00-SetupFiles-DummySite/Github.png)
 
