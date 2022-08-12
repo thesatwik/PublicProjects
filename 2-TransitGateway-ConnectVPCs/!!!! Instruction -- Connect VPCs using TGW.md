@@ -113,7 +113,7 @@ Things to check if connectivity issue persists after succesful TGW implemenation
 * Private Subnet RTs are updated correctly to push traffic towards TGW for interVPC communication. 
 
 
-# Coming up
+# <font color="red"> Coming up </font>
 
 
 In above example All VPCs can talk to each other. However, in order to maintain segregation of duty, there may be requirements to allow connectivty to only specific VPCs while block other VPCs (i.e. PROD VPC can talk to PROD VPC, but not to DEV VPC or vice versa).
