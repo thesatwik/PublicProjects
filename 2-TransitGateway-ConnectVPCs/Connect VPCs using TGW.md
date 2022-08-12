@@ -55,6 +55,8 @@ Coming up!!!
 
 Coming up!!!!
 
+![GUI guide on how to create & Share TGW](https://github.com/thesatwik/PublicProjects/blob/10f6f407abfe671fe7f5a0b8365fc17823b767f8/2-TransitGateway-ConnectVPCs/02%20Diagrams/Create%20&%20Share%20TGW.png)
+
 ## Create Transit Gateway Attachments   
 
 Comming up!!!
