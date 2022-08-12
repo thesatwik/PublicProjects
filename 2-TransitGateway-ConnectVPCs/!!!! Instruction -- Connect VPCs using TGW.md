@@ -94,3 +94,15 @@ Once trafiic reaches transit gateway, based on transit gateway default route tab
 
 
 ![SubnetRTUpdate](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/SubnetRTUpdate.png)
+
+
+## Post Implementation Validation 
+
+Once all Aove setup will complete, All three VPCs should be able to talk to to each other. 
+Login to any EC2 instance, and ping other instances. 
+
+![SuccessAtTheEnd](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/SuccessAtTheEnd.png)
+
+
+## Troubleshooting 
+
