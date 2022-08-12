@@ -45,15 +45,19 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
 
 ###################################This is the END of VPC & EC2 Setup################################
 
-## Create Transit Gateway in Account A    
+## Connectivity check before starting TGW related steps 
 
-Coming up!!!
+There is no connectivity b/w VPCs before setting up TGW
+
+![No Connectivity](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/BeforeTGW-VPCsCantCommunicate.png)
 
 
-## Share Transit gateway to other accounts hosting VPC-B & VPC-C within AWS Organisation   
+## Create Transit Gateway in Account A  & share with other accounts hosting VPC-B & VPC-C within AWS Organisation 
+
+Transit Gateway is created in VCP A in Account A. Then the same TGW is shared with other accounts (B&C) of the organisation. 
 
 
-Coming up!!!!
+Following sceenshot from AWS console shows how TGW was created and then shared with other accounts. 
 
 ![GUI guide on how to create & Share TGW](https://github.com/thesatwik/PublicProjects/blob/10f6f407abfe671fe7f5a0b8365fc17823b767f8/2-TransitGateway-ConnectVPCs/02%20Diagrams/Create%20&%20Share%20TGW.png)
 
