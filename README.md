@@ -4,8 +4,8 @@ This Repo contains some of My POC projects carried out in my personal LAB accoun
 
 
 Thanks,  
-Satwik Bhattacharya | **www.thesatwik.com**
+Satwik Bhattacharya | [www.thesatwik.com](www.thesatwik.com){:target="\_blank"}
 
 
-![Githubbanner](https://github.com/thesatwik/PublicProjects/blob/main/00-SetupFiles-DummySite/Github.png)
+![Githubbanner](https://github.com/thesatwik/PublicProjects/blob/main/00-SetupFiles-DummySite/Github.png) 
 
