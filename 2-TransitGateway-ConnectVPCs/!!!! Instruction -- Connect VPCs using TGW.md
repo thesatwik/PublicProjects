@@ -106,3 +106,15 @@ Login to any EC2 instance, and ping other instances.
 
 ## Troubleshooting 
 
+Things to check if connectivity issue persists after succesful TGW implemenation. 
+
+* Check Security group and NACL to confirm all required source/port are open for communication. 
+* Transit Gateway Attachments are in "Avaiable" state. 
+* Private Subnet RTs are updated correctly to push traffic towards TGW for interVPC communication. 
+
+
+# Coming up
+
+
+In above example All VPCs can talk to each other. However, in order to maintain segregation of duty, there may be requirements to allow connectivty to only specific VPCs while block other VPCs (i.e. PROD VPC can talk to PROD VPC, but not to DEV VPC or vice versa).
+TGW setup for similar requirement will be documented under my [Public Project Github Repo](https://github.com/thesatwik/PublicProjects/) in next mini POC project documentation.
