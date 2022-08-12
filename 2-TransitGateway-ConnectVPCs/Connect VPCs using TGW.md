@@ -76,3 +76,13 @@ Three VPC attachments from created from VPC A/B/C of account A/B/C respecively.
 
 ![TGW attachment](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/TransitGatewayAttachments.png)
 
+
+## Verification of Route Table association. 
+
+Notice that during TGW creation "Default route table association" was checked. Therefore, All attached VPCs will propagate its route, and "**TGW Route Table**" will be populated. 
+
+
+![TGW Default RT](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/TGWDefaultRT.png)
+
+
+## Updateing VPC Subnet Specific Route Table
