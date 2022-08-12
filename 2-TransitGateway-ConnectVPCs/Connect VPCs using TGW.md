@@ -85,4 +85,4 @@ Notice that during TGW creation "Default route table association" was checked. T
 ![TGW Default RT](https://github.com/thesatwik/PublicProjects/blob/main/2-TransitGateway-ConnectVPCs/02%20Diagrams/TGWDefaultRT.png)
 
 
-## Updateing VPC Subnet Specific Route Table
+## Updating VPC Subnet Specific Route Table
