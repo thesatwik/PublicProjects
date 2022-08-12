@@ -428,8 +428,8 @@ Resources:
       ImageId: !Ref LatestAmiId
       IamInstanceProfile: !Ref SessionManagerInstanceProfile
       SubnetId: !Ref SubnetAppA
-      ##SecurityGroupIds: 
-      ##  - !Ref InstanceSecurityGroup
+      SecurityGroupIds: 
+        - !Ref InstanceSecurityGroup
       Tags:
         - Key: Name
           Value: Private-EC2-A
