@@ -42,6 +42,14 @@ All clodes saved in [this location](https://github.com/thesatwik/PublicProjects/
 
 [This oneclick deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://thesatwiklab.s3.amazonaws.com/Codes/2-TransitGateway-ConnectVPCs/VPC-CwithPrivateEC2C.yaml&stackName=VPC-CwithPrivateEC2 ) can be used which will fetch necessary code from my public S3 bucket.  Login or switch to related AWS account before launching oneclick deployement, US-east-1 region needs to be selected. 
 
+Once Cloudformation completed deploying necessary infrastructure along with EC2 instances,below private IP addresses were assigned in my case (This is expected to be differnet if the same CFN template is used later)
+
+EC2-A(Account-A, VPC-A)  --> 10.20.39.213
+
+EC2-B(Account -B, VPC-B) ---> 10.21.33.187
+
+EC2-C(Account-C, VPC-C) ----> 10.22.47.229
+
 
 ###################################This is the END of VPC & EC2 Setup################################
 
@@ -63,6 +71,8 @@ Following sceenshot from AWS console shows how TGW was created and then shared w
 
 ## Create Transit Gateway Attachments   
 
-Comming up!!!
+Below AWS console screen details on how to create TGW attachments and if the TGW is created without "Auto accept Shared Attachment", then owner of TGW (Account-A in this case) must accpet each request. 
+Three VPC attachments from created from VPC A/B/C of account A/B/C respecively. 
 
+![TGW attachment]()
 
